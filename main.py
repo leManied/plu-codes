@@ -31,7 +31,7 @@ def afficher():
 
 #Fonction qui génère un nombre aléatoire entre 0 et le nombre de produits
 def generer_nombre_aleatoire(nombre_de_produit):    
-    return random.randint(0, nombre_de_produit)
+    return random.randint(0, nombre_de_produit-1)
     
 #Fonction qui choisi la chaîne de caractère correspondant au nombre aléatoire
 def choisir_produit(nombre_aleatoire):
